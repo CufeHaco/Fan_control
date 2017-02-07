@@ -1,4 +1,8 @@
 # Fan_control
+
+this script is designed for the wiring diagram shown here, and is for using ruby rather than the python script.
+https://hackernoon.com/how-to-control-a-fan-to-cool-the-cpu-of-your-raspberrypi-3313b6e7f92c#.3yzozng2x
+
 a Ruby script for controlling a cooling fan for the RPI
 INSTRUCTIONS:
 
