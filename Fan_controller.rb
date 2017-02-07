@@ -24,7 +24,7 @@ a = proc{
 			if cpu_temp >= "temp=50.0'C" #only change the numbers for changing the temp. greater than or equal to
 				$fan.on #turn fan gpio pin on
 				end
-			if cpu_temp <= 'temp=49.0'C" #only change the numbers for changing the temp. less than or equal to
+			if cpu_temp <= "temp=49.0'C" #only change the numbers for changing the temp. less than or equal to
 				$fan.off #turn fan gpio pin off
 				end
 										 }
