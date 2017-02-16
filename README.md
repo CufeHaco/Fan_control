@@ -9,10 +9,10 @@ INSTRUCTIONS:
 MAKE SURE THAT RUBY IS UPDATED ON YOUR RASPBERRY PI.
 sudo apt-get install ruby-full
 
-THIS SCRIPT REQUIRES THE PI_PIPER GEM
-sudo gem install pi_piper
+THIS SCRIPT REQUIRES THE  RPI_GPIO GEM
+sudo gem install rpi_gpio
 
-AFTER THESE STEPS ARE COMPLETE, DOWNLOAD THE TWO SCRIPTS.
+AFTER THESE STEPS ARE COMPLETE, DOWNLOAD THE TWO SCRIPTS VIA GIT CLONE COMMAND.
 
 HOW TO RUN SCRIPT AT START
 
@@ -22,9 +22,6 @@ sudo nano /etc/rc.local
 before the exit(0) line, add
 
 ruby /home/pi/Fan_control/Fan_init.rb &
-(I can't rembmeber if ruby is needed, if it doesn't work then just take ruby out of the line.
- Make sure you have the & at the end of the line, it makes the script a background process.)
-save and exit.
 
 to change temp or gpio settings of fan control.
 cd /home/pi/Fan_control
