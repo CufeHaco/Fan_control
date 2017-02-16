@@ -30,10 +30,10 @@ RPi::GPIO.setup 12, as: :output
 #number in "temp=00.0'C"
 #-----------------------------------------------------------
 	def check_temp
-		if cpu_temp >= "temp=57.0'C"
+		if cpu_temp >= "temp=50.0'C"
 			RPi::GPIO.set_high 12
 			end
-		if cpu_temp <= "temp=56.9'C"
+		if cpu_temp <= "temp=49.9'C"
 			RPi::GPIO.set_low 12
 			end
 	end
